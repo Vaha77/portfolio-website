@@ -32,14 +32,17 @@ export default class CenterMode extends Component {
                     FastFood
                   </h5>
                   <p class="text-gray-700 text-base mb-4">
-                    bootcampda qilgan birinchi loyixa
+                    The first project I worked on in the web development
+                    boot-camp.
                   </p>
 
                   <button
                     type="button"
                     class="text-white bg-blue-700  hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                   >
-                    <a href="https://abudulvohit.netlify.app">Choose plan</a>
+                    <a href="https://abudulvohit.netlify.app" target="blank">
+                      Click to preview
+                    </a>
                     <svg
                       class="ml-2 -mr-1 w-5 h-5"
                       fill="currentColor"
@@ -73,14 +76,15 @@ export default class CenterMode extends Component {
                     한국어 프로젝트{" "}
                   </h5>
                   <p class="text-gray-700 text-base mb-4">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    My first Korean language project.
                   </p>
                   <button
                     type="button"
                     class="text-white bg-blue-700  hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                   >
-                    <a href="https://abfulvohidnews.netlify.app">Choose plan</a>
+                    <a href="https://abfulvohidnews.netlify.app" target="blank">
+                      Choose plan
+                    </a>
                     <svg
                       class="ml-2 -mr-1 w-5 h-5"
                       fill="currentColor"
@@ -114,13 +118,16 @@ export default class CenterMode extends Component {
                     Campedia
                   </h5>
                   <p class="text-gray-700 text-base mb-4">
-                    birinichi startuop loyoxada ikki kun qatnashganman
+                    The team project I helped to my friends where I made huge
+                    contributions.
                   </p>
                   <button
                     type="button"
                     class="text-white bg-blue-700  hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                   >
-                    <a href="https://campidiacar.netlify.app">Choose plan</a>
+                    <a href="https://campidiacar.netlify.app" target="blank">
+                      Choose plan
+                    </a>
                     <svg
                       class="ml-2 -mr-1 w-5 h-5"
                       fill="currentColor"
@@ -154,14 +161,16 @@ export default class CenterMode extends Component {
                     Our Tours
                   </h5>
                   <p class="text-gray-700 text-base mb-4">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    Blogs website that gives information about famous hotels
                   </p>
                   <button
                     type="button"
                     class="text-white bg-blue-700  hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                   >
-                    <a href="https://thirsty-elion-775c4a.netlify.app">
+                    <a
+                      href="https://thirsty-elion-775c4a.netlify.app"
+                      target="blank"
+                    >
                       Choose plan
                     </a>
                     <svg

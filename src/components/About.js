@@ -10,11 +10,12 @@ function About() {
           Hey 👋
         </p>
         <p className="text-base text-left md:text-center text-gray-500 leading-relaxed mt-4 justify-center">
-          Programmer with hands-on experience in advanced web development.
-          Equipped with advanced and latest software skills in web development.
-          Passionate to learn new tech skills and improve. Extroverted andeager
-          to learn from colleges and build a friendly environment. Adeptin
-          various social media platforms and office technology programs.
+          I am a programmer with hands-on experience in advanced web
+          development. Equipped with advanced and latest software skills in tech
+          world. Passionate to learn new tech skills and improve. Extroverted
+          and eager to learn from colleges and build a friendly environment.
+          Adept in various social media platforms and office technology
+          programs.
         </p>
       </div>
 

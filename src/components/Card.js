@@ -21,7 +21,7 @@ function Card() {
             Rakhimov Vokhidjon
           </p>
           <p className="text-xs sm:text-base text-gray-600 pt-2 pb-4 px-5 w-auto inline-block border-b-2">
-            FrondEnd Developer| Web Developer
+            Frond-end Web Developer
           </p>
           <div className="flex align-center justify-center mt-4">
             <a
