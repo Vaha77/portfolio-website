@@ -23,24 +23,23 @@ export default class CenterMode extends Component {
                 <a href="#!">
                   <img
                     class="rounded-t-lg"
-                    src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+                    src="https://cdn.pixabay.com/photo/2019/07/29/05/52/burger-4369973__480.jpg"
                     alt=""
                   />
                 </a>
                 <div class="p-6">
                   <h5 class="text-gray-900 text-xl font-medium mb-2">
-                    Card title
+                    FastFood
                   </h5>
                   <p class="text-gray-700 text-base mb-4">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    bootcampda qilgan birinchi loyixa
                   </p>
 
                   <button
                     type="button"
                     class="text-white bg-blue-700  hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                   >
-                    Choose plan
+                    <a href="https://abudulvohit.netlify.app">Choose plan</a>
                     <svg
                       class="ml-2 -mr-1 w-5 h-5"
                       fill="currentColor"
@@ -65,13 +64,13 @@ export default class CenterMode extends Component {
                 <a href="#!">
                   <img
                     class="rounded-t-lg"
-                    src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+                    src="https://w.namu.la/s/b83047a8859f42733a4556e93f1509360b36c096e455b2c6d4fc00a07ecb7f692e99c84661ef6b801c635ba931c0bc656c879de1fdf3347e84ee61471a7dbf9ef46398cb91acfa6c2d56f7eedae0fea0"
                     alt=""
                   />
                 </a>
                 <div class="p-6">
                   <h5 class="text-gray-900 text-xl font-medium mb-2">
-                    Card title
+                    한국어 프로젝트{" "}
                   </h5>
                   <p class="text-gray-700 text-base mb-4">
                     Some quick example text to build on the card title and make
@@ -81,7 +80,7 @@ export default class CenterMode extends Component {
                     type="button"
                     class="text-white bg-blue-700  hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                   >
-                    Choose plan
+                    <a href="https://abfulvohidnews.netlify.app">Choose plan</a>
                     <svg
                       class="ml-2 -mr-1 w-5 h-5"
                       fill="currentColor"
@@ -106,23 +105,22 @@ export default class CenterMode extends Component {
                 <a href="#!">
                   <img
                     class="rounded-t-lg"
-                    src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+                    src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA5MDlfMTk3%2FMDAxNjMxMTgxODMzNTQ2.Oj9gArZnbAXKT3EO0FKKhGoPHJPfw8tXNQc518MZEjog.4SEm-jlB63JlVOvhqlqDk5V5R40XZi3C0XoxO78PSXgg.JPEG.daramjuo%2Froad-trip-logistics-semi-truck-and-an-airstream-camper-on-the-highway-on-a-r.jpg&type=sc960_832"
                     alt=""
                   />
                 </a>
                 <div class="p-6">
                   <h5 class="text-gray-900 text-xl font-medium mb-2">
-                    Card title
+                    Campedia
                   </h5>
                   <p class="text-gray-700 text-base mb-4">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    birinichi startuop loyoxada ikki kun qatnashganman
                   </p>
                   <button
                     type="button"
                     class="text-white bg-blue-700  hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                   >
-                    Choose plan
+                    <a href="https://campidiacar.netlify.app">Choose plan</a>
                     <svg
                       class="ml-2 -mr-1 w-5 h-5"
                       fill="currentColor"
@@ -147,13 +145,13 @@ export default class CenterMode extends Component {
                 <a href="#!">
                   <img
                     class="rounded-t-lg"
-                    src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+                    src="https://www.neweuropetours.eu/wp-content/uploads/2021/10/gabriella-clare-marino-tlyzsnu8md0-unsplash-1600x900.jpg"
                     alt=""
                   />
                 </a>
                 <div class="p-6">
                   <h5 class="text-gray-900 text-xl font-medium mb-2">
-                    Card title
+                    Our Tours
                   </h5>
                   <p class="text-gray-700 text-base mb-4">
                     Some quick example text to build on the card title and make
@@ -163,7 +161,9 @@ export default class CenterMode extends Component {
                     type="button"
                     class="text-white bg-blue-700  hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                   >
-                    Choose plan
+                    <a href="https://thirsty-elion-775c4a.netlify.app">
+                      Choose plan
+                    </a>
                     <svg
                       class="ml-2 -mr-1 w-5 h-5"
                       fill="currentColor"

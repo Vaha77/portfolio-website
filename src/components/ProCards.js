@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import Slider from "react-slick";
 
 import { SiHtml5 } from "react-icons/si";
 import { SiCss3 } from "react-icons/si";
@@ -14,216 +15,298 @@ import { FaChevronDown } from "react-icons/fa";
 
 function ProCards() {
   return (
-    <div className="max-w-4xl mx-auto justify-center py-12" id="tech">
-      <p className="text-2xl text-black  md:text-4xl font-bold text-center pt-4">
-        Project
-      </p>
+    <section class="text-gray-700 body-font">
+      <div class="container px-5 py-24 mx-auto">
+        <p className="text-2xl text-black  md:text-4xl font-bold text-center my-10">
+          1 saxifali Projects
+        </p>
 
-      <div className="flex flex-wrap justify-center ">
-        {/* html */}
-        <div className="flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52">
-          <SiHtml5 color="#2196f3" className="mx-auto text-4xl" />
-          <p className="mt-6 text-xl font-semibold text-center">dum</p>
-          <div class="m-3">
-            <button class="bg-white  text-gray-800 font-bold rounded border-b-2  border-red-500 hover:border-red-600 hover:bg-red-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center">
-              <span class="mr-2">Close</span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  fill="currentcolor"
-                  d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"
-                />
-              </svg>
-            </button>
-          </div>
-        </div>
-        {/* Css */}
-        <div className="flex flex-col 	items-center w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52">
-          <SiCss3 color="#2196f3" className="mx-auto text-4xl" />
-          <p className="mt-6 text-xl font-semibold text-center">Css 3</p>
+        <div class="flex flex-wrap -m-4 text-center">
+          {/* 1 */}
+          <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+            <a href="https://eager-morse-9c95b7.netlify.app">
+              <div class="bg-white border-2 border-gray-600 px-4 py-6 rounded-lg transform transition duration-500 hover:scale-110">
+                <img src="https://miro.medium.com/max/1200/1*7fXfXk2_d5t3_NHUMP-ZmQ.jpeg" />
 
-          <div class="m-3">
-            <button class="bg-white  text-gray-800 font-bold rounded border-b-2  border-red-500 hover:border-red-600 hover:bg-red-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center">
-              <span class="mr-2">Close</span>
+                <h2 class="title-font font-medium text-3xl text-gray-900">Eager</h2>
+                <p class="leading-relaxed">bir saxifali online ish tajriba</p>
+              </div>
+            </a>
+          </div>
+          {/* 2 */}
+          <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+            <div class="bg-white border-2 border-gray-600 px-4 py-6 rounded-lg transform transition duration-500 hover:scale-110">
               <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="text-indigo-500 w-12 h-12 mb-3 inline-block"
                 viewBox="0 0 24 24"
               >
-                <path
-                  fill="currentcolor"
-                  d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"
-                />
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
               </svg>
-            </button>
+              <h2 class="title-font font-medium text-3xl text-gray-900">46</h2>
+              <p class="leading-relaxed">Places</p>
+            </div>
           </div>
-        </div>
-        {/* tailwind */}
-        <div className="flex flex-col w-40  p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52">
-          <SiTailwindcss color="#00C0A3" className="mx-auto text-4xl" />
-          <p className="mt-6 text-base font-semibold text-center">
-            TailwindCSS
-          </p>
-          <div class="m-3">
-            <button class="bg-white  text-gray-800 font-bold rounded border-b-2  border-red-500 hover:border-red-600 hover:bg-red-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center">
-              <span class="mr-2">Close</span>
+          {/* 3 */}
+          <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+            <div class="bg-white border-2 border-gray-600 px-4 py-6 rounded-lg transform transition duration-500 hover:scale-110">
               <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="text-indigo-500 w-12 h-12 mb-3 inline-block"
                 viewBox="0 0 24 24"
               >
-                <path
-                  fill="currentcolor"
-                  d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"
-                />
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
               </svg>
-            </button>
+              <h2 class="title-font font-medium text-3xl text-gray-900">46</h2>
+              <p class="leading-relaxed">Places</p>
+            </div>
           </div>
-        </div>
-        {/* javaScript */}
-        <div className="flex flex-col w-40  p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52">
-          <SiJavascript color="#ffdf00" className="mx-auto text-4xl" />
-          <p className="mt-6 text-xl font-semibold text-center">JavaScript</p>
-          <div class="m-3">
-            <button class="bg-white  text-gray-800 font-bold rounded border-b-2  border-red-500 hover:border-red-600 hover:bg-red-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center">
-              <span class="mr-2">Close</span>
+          {/* 4 */}
+          <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+            <div class="bg-white border-2 border-gray-600 px-4 py-6 rounded-lg transform transition duration-500 hover:scale-110">
               <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="text-indigo-500 w-12 h-12 mb-3 inline-block"
                 viewBox="0 0 24 24"
               >
-                <path
-                  fill="currentcolor"
-                  d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"
-                />
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
               </svg>
-            </button>
+              <h2 class="title-font font-medium text-3xl text-gray-900">46</h2>
+              <p class="leading-relaxed">Places</p>
+            </div>
           </div>
-        </div>
-        <div className="flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52">
-          <SiNodedotjs color="#2196f3" className="mx-auto text-4xl" />
-          <p className="mt-6 text-xl font-semibold text-center">NodeJs</p>
-          <div class="m-3">
-            <button class="bg-white  text-gray-800 font-bold rounded border-b-2  border-red-500 hover:border-red-600 hover:bg-red-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center">
-              <span class="mr-2">Close</span>
+          {/* 5 */}
+          <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+            <div class="bg-white border-2 border-gray-600 px-4 py-6 rounded-lg transform transition duration-500 hover:scale-110">
               <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="text-indigo-500 w-12 h-12 mb-3 inline-block"
                 viewBox="0 0 24 24"
               >
-                <path
-                  fill="currentcolor"
-                  d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"
-                />
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
               </svg>
-            </button>
+              <h2 class="title-font font-medium text-3xl text-gray-900">46</h2>
+              <p class="leading-relaxed">Places</p>
+            </div>
           </div>
-        </div>
-
-        <div className="flex flex-col w-40  p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52">
-          <FaReact color="#2196f3" className="mx-auto text-4xl " />
-          <p className="mt-6 text-xl font-semibold text-center">ReactJs</p>
-          <div class="m-3">
-            <button class="bg-white  text-gray-800 font-bold rounded border-b-2  border-red-500 hover:border-red-600 hover:bg-red-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center">
-              <span class="mr-2">Close</span>
+          {/* 6 */}
+          <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+            <div class="bg-white border-2 border-gray-600 px-4 py-6 rounded-lg transform transition duration-500 hover:scale-110">
               <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="text-indigo-500 w-12 h-12 mb-3 inline-block"
                 viewBox="0 0 24 24"
               >
-                <path
-                  fill="currentcolor"
-                  d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"
-                />
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
               </svg>
-            </button>
+              <h2 class="title-font font-medium text-3xl text-gray-900">46</h2>
+              <p class="leading-relaxed">Places</p>
+            </div>
           </div>
-        </div>
-
-        <div className="flex flex-col w-40  p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52">
-          <FiFigma color="orange" className="mx-auto text-4xl" />
-          <p className="mt-6 text-xl font-semibold text-center">Figma</p>
-          <div class="m-3">
-            <button class="bg-white  text-gray-800 font-bold rounded border-b-2  border-red-500 hover:border-red-600 hover:bg-red-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center">
-              <span class="mr-2">Close</span>
+          {/* 7*/}
+          <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+            <div class="bg-white border-2 border-gray-600 px-4 py-6 rounded-lg transform transition duration-500 hover:scale-110">
               <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="text-indigo-500 w-12 h-12 mb-3 inline-block"
                 viewBox="0 0 24 24"
               >
-                <path
-                  fill="currentcolor"
-                  d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"
-                />
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
               </svg>
-            </button>
+              <h2 class="title-font font-medium text-3xl text-gray-900">46</h2>
+              <p class="leading-relaxed">Places</p>
+            </div>
           </div>
-        </div>
-        <div className="flex flex-col w-40  p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52">
-          <SiGithub color="black" className="mx-auto text-4xl" />
-          <p className="mt-6 text-xl font-semibold text-center">Github</p>
-          <div class="m-3">
-            <button class="bg-white  text-gray-800 font-bold rounded border-b-2  border-red-500 hover:border-red-600 hover:bg-red-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center">
-              <span class="mr-2">Close</span>
+          {/* 8 */}
+          <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+            <div class="bg-white border-2 border-gray-600 px-4 py-6 rounded-lg transform transition duration-500 hover:scale-110">
               <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="text-indigo-500 w-12 h-12 mb-3 inline-block"
                 viewBox="0 0 24 24"
               >
-                <path
-                  fill="currentcolor"
-                  d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"
-                />
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
               </svg>
-            </button>
+              <h2 class="title-font font-medium text-3xl text-gray-900">46</h2>
+              <p class="leading-relaxed">Places</p>
+            </div>
           </div>
-        </div>
-
-        <div className="flex flex-col w-40  p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52">
-          <DiPhotoshop color="blue" className="mx-auto text-4xl" />
-          <p className="mt-6 text-xl font-semibold text-center">Photoshop</p>
-          <div class="m-3">
-            <button class="bg-white  text-gray-800 font-bold rounded border-b-2  border-red-500 hover:border-red-600 hover:bg-red-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center">
-              <span class="mr-2">Close</span>
+          {/* 9 */}
+          <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+            <div class="bg-white border-2 border-gray-600 px-4 py-6 rounded-lg transform transition duration-500 hover:scale-110">
               <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="text-indigo-500 w-12 h-12 mb-3 inline-block"
                 viewBox="0 0 24 24"
               >
-                <path
-                  fill="currentcolor"
-                  d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"
-                />
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
               </svg>
-            </button>
+              <h2 class="title-font font-medium text-3xl text-gray-900">46</h2>
+              <p class="leading-relaxed">Places</p>
+            </div>
           </div>
+          {/*10 */}
+          <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+            <div class="bg-white border-2 border-gray-600 px-4 py-6 rounded-lg transform transition duration-500 hover:scale-110">
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="text-indigo-500 w-12 h-12 mb-3 inline-block"
+                viewBox="0 0 24 24"
+              >
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+              <h2 class="title-font font-medium text-3xl text-gray-900">46</h2>
+              <p class="leading-relaxed">Places</p>
+            </div>
+          </div>
+          {/* 12 */}
+          <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+            <div class="bg-white border-2 border-gray-600 px-4 py-6 rounded-lg transform transition duration-500 hover:scale-110">
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="text-indigo-500 w-12 h-12 mb-3 inline-block"
+                viewBox="0 0 24 24"
+              >
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+              <h2 class="title-font font-medium text-3xl text-gray-900">46</h2>
+              <p class="leading-relaxed">Places</p>
+            </div>
+          </div>
+          {/* 13 */}
+          <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+            <div class="bg-white border-2 border-gray-600 px-4 py-6 rounded-lg transform transition duration-500 hover:scale-110">
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="text-indigo-500 w-12 h-12 mb-3 inline-block"
+                viewBox="0 0 24 24"
+              >
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+              <h2 class="title-font font-medium text-3xl text-gray-900">46</h2>
+              <p class="leading-relaxed">Places</p>
+            </div>
+          </div>
+          {/* 14 */}
+          <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+            <div class="bg-white border-2 border-gray-600 px-4 py-6 rounded-lg transform transition duration-500 hover:scale-110">
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="text-indigo-500 w-12 h-12 mb-3 inline-block"
+                viewBox="0 0 24 24"
+              >
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+              <h2 class="title-font font-medium text-3xl text-gray-900">46</h2>
+              <p class="leading-relaxed">Places</p>
+            </div>
+          </div>
+          {/* 15 */}
+          <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+            <div class="bg-white border-2 border-gray-600 px-4 py-6 rounded-lg transform transition duration-500 hover:scale-110">
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="text-indigo-500 w-12 h-12 mb-3 inline-block"
+                viewBox="0 0 24 24"
+              >
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+              <h2 class="title-font font-medium text-3xl text-gray-900">46</h2>
+              <p class="leading-relaxed">Places</p>
+            </div>
+          </div>
+          {/* 16 */}
+          <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+            <div class="bg-white border-2 border-gray-600 px-4 py-6 rounded-lg transform transition duration-500 hover:scale-110">
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="text-indigo-500 w-12 h-12 mb-3 inline-block"
+                viewBox="0 0 24 24"
+              >
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+              <h2 class="title-font font-medium text-3xl text-gray-900">46</h2>
+              <p class="leading-relaxed">Places</p>
+            </div>
+          </div>
+          {/* 17 */}
+          <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+            <div class="bg-white border-2 border-gray-600 px-4 py-6 rounded-lg transform transition duration-500 hover:scale-110">
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="text-indigo-500 w-12 h-12 mb-3 inline-block"
+                viewBox="0 0 24 24"
+              >
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+              <h2 class="title-font font-medium text-3xl text-gray-900">46</h2>
+              <p class="leading-relaxed">Places</p>
+            </div>
+          </div>
+          {/* 18 */}
         </div>
       </div>
-
-      <ScrollIntoView selector="#contactme">
-        <div class="mx-auto ">
-          <div
-            className="max-w-lg w-full text-center m-auto pt-36 pb-10"
-            id="contactme"
-          >
-            <h1 className="text-4xl">Interested in working together?</h1>
-          </div>
-          <FaChevronDown class="animate-bounce mx-auto text-3xl text-blue-500" />
-        </div>
-      </ScrollIntoView>
-    </div>
+    </section>
   );
 }
 
