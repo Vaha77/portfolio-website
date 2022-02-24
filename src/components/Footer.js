@@ -14,28 +14,28 @@ function Footer() {
           href="https://github.com/Vaha77"
         >
           <FaGithub />
-          <span class="sr-only">Github</span>
+          <span className="sr-only">Github</span>
         </a>
         <a
           className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-red-600 hover:bg-red-600 rounded-full hover:text-white transition-colors duration-300"
           href="https://www.instagram.com/"
         >
           <FaInstagram />
-          <span class="sr-only">YouTube</span>
+          <span className="sr-only">YouTube</span>
         </a>
         <a
           className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-blue-500 hover:bg-blue-500 rounded-full hover:text-white transition-colors duration-300"
           href="https://twitter.com/home"
         >
           <FaTwitter />
-          <span class="sr-only">Twitter</span>
+          <span className="sr-only">Twitter</span>
         </a>
         <a
           className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-teal-500 hover:bg-black rounded-full hover:text-white transition-colors duration-300"
           href="mailto:abdulvohid233@gmail.com"
         >
           <FaRegEnvelope />
-          <span class="sr-only">Email</span>
+          <span className="sr-only">Email</span>
         </a>
       </div>
       <div className="flex align-center justify-center mt-4">

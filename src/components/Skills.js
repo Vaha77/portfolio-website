@@ -68,12 +68,12 @@ function Skills() {
       </div>
 
       <ScrollIntoView selector="#proj">
-        <div class="mx-auto p-20">
+        <div className="mx-auto p-20">
           {" "}
           <p className="text-2xl text-black  md:text-4xl font-bold text-center my-10 pt-4">
             My Projects
           </p>
-          <FaChevronDown class="animate-bounce mx-auto text-3xl text-blue-500" />
+          <FaChevronDown className="animate-bounce mx-auto text-3xl text-blue-500" />
         </div>
       </ScrollIntoView>
     </div>
